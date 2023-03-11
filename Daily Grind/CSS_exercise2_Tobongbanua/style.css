@@ -1,0 +1,71 @@
+/*KodeGo Joshua Tobongbanua CSS Exercise 2 */
+
+#page-wrapper {
+    margin: 0;
+}
+
+#top-menu{
+    padding: 15px 0 5px 0px;
+    text-align: center;
+    background-color: #2e2c2c;
+}
+
+#top-menu .container a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+#top-menu a:hover{
+    color: aqua;
+}
+
+li {
+    display: inline-block;
+    padding: 0 15px 0 15px;
+}
+
+#banner {
+    height: 250px;
+    text-align: right;
+    background-color: #e0e7f7;
+}
+
+.banner-text {
+    padding: 70px 200px;
+    font-size: 0.8em;
+}
+
+#main-content {
+    background-color: #fff;
+}
+
+h3 {
+    padding:  0 0 30px 0;
+}
+
+section {
+    max-width: 100%;
+    padding: 30px;
+    font-size: 0.9em;
+}
+
+section:nth-child(even) {
+    background-color: #dad8d8;
+}
+
+#footer{
+    height: 200px;
+    background-color: #2e2c2c;
+    color: aqua;
+    padding: 30px;
+}
+
+#footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
