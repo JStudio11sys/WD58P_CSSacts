@@ -39,7 +39,7 @@ li {
 
 @keyframes animate {
     0%   { left:0px; top:0px;}
-  25%  { left:200px; top:0px;}
+  25%  { left:50px; right:50px;}
   100% { left:0px; top:0px;}
 }
 #banner1 {
@@ -55,7 +55,7 @@ li {
     position: relative;
     animation-name: animate;
     animation-duration: 4s;
-    animation-direction: alternate-reverse;
+    animation-direction: alternate ;
     animation-iteration-count: infinite;
 }
 #banner2 {
@@ -102,7 +102,7 @@ li {
 .banner-spacer {
     padding-top: 55px;
     padding-bottom: 10px;
-    padding-right: 30px;
+    padding-right: 50px;
 }
 
 .banner-text {
