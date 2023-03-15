@@ -1,0 +1,122 @@
+/* KodeGo  Responsive Practice Tobongbanua */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1300px){
+    .name-logo {
+        font-size: x-large !important;
+        transition: font-size 4s;
+    }
+    #container {
+        background-size: cover !important;
+        transition: background-size 2s;
+    }
+}
+
+@media screen and (max-width: 1020px){
+    .name-logo {
+        font-size: medium !important;
+        transition: font-size 4s;
+    }
+    .link-container {
+        display: none !important;
+    }
+    #container {
+        background-size: 300vmax !important;
+        background-position: center;
+        transition: background-size 5s;
+    }
+}
+
+.hidden-menu{
+    display: none;
+}
+
+#container {
+    background-image: url(assets/2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-container{
+    width: 100%;
+    position: fixed;
+    background: linear-gradient(180deg,
+    rgb(138, 137, 137) 0%,
+    rgba(255, 255, 255, 0) 100%
+    );
+}
+
+.nav-container div{
+    padding: 30px 0 30px 20px;
+    display: inline-block;
+}
+
+.nav-content {
+    width: 100%;    
+}
+
+.nav-content .name-logo{
+    float: left;
+}
+
+.nav-content .link-container{
+    width: 60%;
+    float: right;
+}
+
+.name-logo {
+    color: #fff;
+    font-size: x-large;
+    font-weight:500;
+}
+
+.link-container{
+    text-align: center;
+}
+
+.link-container ul{
+    width: 100%;
+}
+
+.link-container li{
+    display: inline-block;
+    padding: 0 20px 0 20px;
+}
+
+.link-container a{
+    color: #fff;
+}
+
+
+#banner-wrapper {
+    padding-top: 500px;
+    height: 200px;
+    background: linear-gradient(90deg,
+    rgba(39, 1, 255, 0.253) 30%,
+    rgba(255, 255, 255, 0) 70%
+    );
+}
+
+#main-content-wrapper {
+    padding-top: 250px;
+    height: 200px;
+    background: linear-gradient(90deg,
+    rgba(255, 255, 255, 0.103) 30%,
+    rgba(255, 0, 0, 0.281) 70%
+    );
+}
+
+
