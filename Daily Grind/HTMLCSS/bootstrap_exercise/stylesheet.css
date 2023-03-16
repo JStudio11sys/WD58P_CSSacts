@@ -1,0 +1,13 @@
+/* KodeGo Bootstrap exercise Tobongbanua */
+
+.top-menu {
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, 
+    rgba(0,0,0,0.5102415966386555) 0%, 
+    rgba(253,253,255,0) 100%);
+}
+
+.name-logo {
+    width: 100px;
+    height: auto;
+}
