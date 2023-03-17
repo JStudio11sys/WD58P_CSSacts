@@ -1,0 +1,29 @@
+/* KodeGo Table Bootstrap Exercise */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.thead {
+    background-color: #076834;
+    color: #fff;
+}
+
+.btn {
+    background-color: #10743f;
+    color: #fff;
+}
+
+.tbl-container {
+    margin-top: 10px;
+  }
+
+.bdr {
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+.table-hover tbody tr:hover{
+    background-color: #daf5e7;
+  }
