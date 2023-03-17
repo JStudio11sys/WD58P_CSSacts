@@ -27,3 +27,7 @@
 .table-hover tbody tr:hover{
     background-color: #daf5e7;
   }
+
+  tbody td:first-child{
+    color:#593df3;
+  }
