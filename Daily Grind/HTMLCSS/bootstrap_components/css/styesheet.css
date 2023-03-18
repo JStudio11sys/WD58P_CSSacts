@@ -1,4 +1,4 @@
-/* KodeGo WD58P BOOTSTRAP COMPONENTS Exercise Joshua Tobongbanua */
+/* KodeGo WD58P BOOTSTRAP COMPONENTS Exercise 2 Joshua Tobongbanua */
 
 * {
     margin: 0;
@@ -30,4 +30,36 @@
 
   tbody td:first-child{
     color:#593df3;
-  }
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.prof {
+  width: 120px;
+}
+
+.edit-svg {
+  width: 30px;
+}
+
+.add-client {
+  width: 20px;
+  
+}
+
+.invert { 
+  filter: invert(100%); 
+}
+
+.nav-item {
+  margin: 0 1px;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  border-top-right-radius: 15px;
+}
+
+.tab-design {
+  background: linear-gradient(0deg, #076834 100%);
+}

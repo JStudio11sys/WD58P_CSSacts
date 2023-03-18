@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Practice</title>
+    <!--KodeGo WD58P BOOTSTRAP COMPONENTS Exercise 2 Joshua Tobongbanua-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/styesheet.css" />
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="table-responsive p-5">
+                <div class="card text-center">
+                    <div class="card-header d-flex justify-content-between p-4">
+                        <h3 class="text-warning">Client Profile(Juan Dela Cruz)</h3>
+                        <button type="button" class="btn btn-dark"><img class="add-client invert" src="assets/add.svg" /> Add Client</button>
+                    </div>
+                    <div class="card-body border border-success rounded">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="prof p-1" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Circle-icons-profile.svg">
+                                <a href="#" class="btn btn-dark">Upload Photo</a>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="col-sm-3 d-flex justify-content-end bold">
+                                        ID
+                                    </div>
+                                    <div class="col-sm-6 d-flex align-items-start text-muted">
+                                        24523445
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-3 d-flex justify-content-end bold">
+                                        Birthdate
+                                    </div>
+                                    <div class="col-sm-6 d-flex align-items-start text-muted">
+                                        10-27-1950
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-3 d-flex justify-content-end bold">
+                                        Start Date
+                                    </div>
+                                    <div class="col-sm-6 d-flex align-items-start text-muted">
+                                        10-27-2019
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-3 d-flex justify-content-end bold">
+                                        Language
+                                    </div>
+                                    <div class="col-sm-6 d-flex align-items-start text-muted">
+                                        English
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-1 p-1">
+                                <img class="edit-svg" src="assets/edit.svg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="p-2"></div>
+            <div class="container border border-success p-3 rounded-3">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item"><a href="#contacts" class="nav-link active" data-bs-toggle="tab">Contact Details</a></li>
+                    <li class="nav-item"><a href="#files" class="nav-link" data-bs-toggle="tab">Files Attached</a></li>
+                    <li class="nav-item"><a href="#service" class="nav-link" data-bs-toggle="tab">Service Delivered</a></li>
+                    <li class="nav-item"><a href="#client" class="nav-link" data-bs-toggle="tab">Client Funds Monitor</a></li>
+                    <li class="nav-item"><a href="#time" class="nav-link" data-bs-toggle="tab">Time Cracker</a></li>
+                    <li class="nav-item"><a href="#feedback" class="nav-link" data-bs-toggle="tab">Feedback and Complaints</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div id="contacts" class="tab-pane active">
+                        <div class="container">
+                            <h2>Contacts</h2>
+                            <form action="#" class="was-validated">
+                                <div class="row p-2">
+                                    <div class="col-sm-3">
+                                        <label class="form-label">Address 1</label>
+                                        <input type="text" class="form-control" placeholder="Address 1" required>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <label class="form-label">Address 2</label>
+                                        <input type="text" class="form-control" placeholder="Address 1" required>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <label class="form-label">State</label>
+                                        <input type="text" class="form-control" placeholder="State" required>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <label class="form-label">City</label>
+                                        <input type="text" class="form-control" placeholder="City" required>
+                                    </div>
+                                </div>
+                                <div class="row p-2">
+                                    <div class="col-sm-3">
+                                        <label class="form-label">Postal Code</label>
+                                        <input type="text" class="form-control" placeholder="Postal Code" required>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <label class="form-label">Country</label>
+                                        <select class="form-select" required>
+                                            <option value="">-- None Selected --</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row p-2">
+                                    <div class="col-sm-3">
+                                        <label class="form-label">Mobile Phone</label>
+                                        <input type="text" class="form-control" placeholder="Mobile Phone" required>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <label class="form-label">Home Phone</label>
+                                        <input type="text" class="form-control" placeholder="Home Phone" required>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <label class="form-label">Email</label>
+                                        <input type="text" class="form-control" placeholder="Email" required>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <label class="form-label">Other Phone</label>
+                                        <input type="text" class="form-control" placeholder="Other Phone" required>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div id="files" class="tab-pane fade">
+                        <div class="container">
+                            <h2>Files</h2>
+                        </div>
+                    </div>
+                    <div id="service" class="tab-pane fade">
+                        <div class="container">
+                            <h2>Service Delivered</h2>
+                        </div>
+                    </div>
+                    <div id="client" class="tab-pane fade">
+                        <div class="container">
+                            <h2>Client Funds Monitor</h2>
+                        </div>
+                    </div>
+                    <div id="client" class="tab-pane fade">
+                        <div class="container">
+                            <h2>Client Funds Monitor</h2>
+                        </div>
+                    </div>
+                    <div id="time" class="tab-pane fade">
+                        <div class="container">
+                            <h2>Time Tracker</h2>
+                        </div>
+                    </div>
+                    <div id="feedback" class="tab-pane fade">
+                        <div class="container">
+                            <h2>Time Tracker</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
