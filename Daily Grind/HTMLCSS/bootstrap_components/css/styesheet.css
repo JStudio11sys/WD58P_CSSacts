@@ -53,13 +53,15 @@
   filter: invert(100%); 
 }
 
-.nav-item {
+.nav-link{
+  color: #027939;
+}
+
+.nav-item .active{
   margin: 0 1px;
   border: 1px solid #ccc;
   border-bottom: none;
   border-top-right-radius: 15px;
+  background: linear-gradient(0deg, #ffffff 90%, #027939 50%);
 }
 
-.tab-design {
-  background: linear-gradient(0deg, #076834 100%);
-}
